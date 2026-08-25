@@ -49,24 +49,6 @@ menu = st.sidebar.radio(
     ["Quem sou eu", "Minhas qualificações", "Skills", "Análise de Dados"]
 )
 
-st.sidebar.markdown("---")
-st.sidebar.subheader("Material de Backup")
-backup_text = """
-# Apresentação Coringa - Dashboard CP1
-**Aluno:** Kauê de Almeida Pena | FIAP - Engenharia de Software
-
-## 1. Quem sou eu & Qualificações
-Apresentação profissional com foco em Engenharia de Software, experiência atual como Estagiário de TI na FIAP e formação acadêmica complementar em Linux e Lógica.
-
-## 2. Skills
-Visualização de competências técnicas (C/C++, Git, Python, SQL, Java) e Soft Skills relevantes para a área de tecnologia.
-
-## 3. Análise de Dados (Sistemas Automotivos & Segurança)
-- **Objetivo:** Analisar a taxa de incidentes em sistemas ADAS/Autônomos por fabricante e evolução anual.
-- **Fontes:** Dados baseados nos relatórios do NHTSA Standing General Order (SGO) e California DMV.
-- **Insights:** Evolução temporal demonstra queda gradual no número de acidentes/milhão de km com o amadurecimento dos sistemas de Nível 3 e Nível 4.
-"""
-
 
 # ABA 1: QUEM SOU EU
 if menu == "Quem sou eu":
