@@ -307,10 +307,3 @@ elif menu == "Análise de Dados":
     * **California DMV (Department of Motor Vehicles):** [California DMV Autonomous Vehicle Collision Reports](https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/)
     """)
 
-    csv = df_full.to_csv(index=False).encode('utf-8')
-    st.download_button(
-        label="Download da Base de Dados Completa com Todos os Anos (CSV)",
-        data=csv,
-        file_name="base_dados_carros_acidentes_todos_anos.csv",
-        mime="text/csv",
-    )
