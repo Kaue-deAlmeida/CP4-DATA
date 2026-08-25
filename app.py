@@ -67,12 +67,6 @@ Visualização de competências técnicas (C/C++, Git, Python, SQL, Java) e Soft
 - **Insights:** Evolução temporal demonstra queda gradual no número de acidentes/milhão de km com o amadurecimento dos sistemas de Nível 3 e Nível 4.
 """
 
-st.sidebar.download_button(
-    label="Baixar Apresentação Coringa (Backup)",
-    data=backup_text,
-    file_name="Apresentacao_Coringa_Kaue_Pena.md",
-    mime="text/markdown"
-)
 
 # ABA 1: QUEM SOU EU
 if menu == "Quem sou eu":
