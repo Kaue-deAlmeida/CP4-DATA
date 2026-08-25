@@ -68,7 +68,7 @@ if menu == "Quem sou eu":
         Olá! Sou estudante do **Bacharelado em Engenharia de Software na FIAP** e atuo como **Estagiário de TI**. 
         Possuo grande fascínio em aplicações focadas em sistemas embarcados e tecnologia automotiva.
 
-        A dashboard Foi criada para juntar dados sobre alguns sistemas e sensores e ter uma sobre quais sistemas automotivos podem ser mais seguros de acordo com
+        A dashboard foi criada para juntar dados sobre alguns sistemas e sensores e ter uma sobre quais sistemas automotivos podem ser mais seguros de acordo com
         o número de acidentes registrados no últimos anos.
         """)
 
